@@ -30,7 +30,7 @@ const mapStateToProps = (state) => {
         projects : state.firestore.ordered.projects
     }
 }
- 
+
 export default compose(
     connect(mapStateToProps),
     firestoreConnect([
